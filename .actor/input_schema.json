@@ -1,0 +1,30 @@
+{
+    "title": "Nonprofit Form 990 Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "organizations": {
+            "title": "Organizations",
+            "type": "array",
+            "editor": "stringList",
+            "description": "Nonprofits to look up, by EIN (e.g. \"27-1067272\") or name keyword (e.g. \"code for america\"). Name searches use the top match. One lookup is billed per entry.",
+            "prefill": ["code for america"]
+        },
+        "state": {
+            "title": "State filter (optional)",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Two-letter state code to disambiguate name searches with common names (e.g. \"CA\"). Ignored for EIN lookups."
+        },
+        "maxFilingsReturned": {
+            "title": "Max filings per org",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of most recent Form 990 filing years to return per organization.",
+            "default": 3,
+            "minimum": 1,
+            "maximum": 10
+        }
+    },
+    "required": ["organizations"]
+}

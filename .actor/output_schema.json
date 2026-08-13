@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Nonprofit Form 990 Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Filings",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
