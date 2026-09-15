@@ -8,7 +8,8 @@
             "type": "array",
             "editor": "stringList",
             "description": "Nonprofits to look up, by EIN (e.g. \"27-1067272\") or name keyword (e.g. \"code for america\"). Name searches use the top match. One lookup is billed per entry.",
-            "prefill": ["code for america"]
+            "prefill": ["code for america"],
+            "default": ["code for america"]
         },
         "state": {
             "title": "State filter (optional)",
