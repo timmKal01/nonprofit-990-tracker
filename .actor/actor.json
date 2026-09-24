@@ -1,7 +1,7 @@
 {
     "actorSpecification": 1,
     "name": "nonprofit-990-tracker",
-    "title": "Nonprofit Form 990 Tracker — Revenue, Expenses & Filings",
+    "title": "Nonprofit 990 Lookup: Revenue & Expenses by EIN",
     "description": "Look up nonprofits by name or EIN and get their most recent Form 990 filings: revenue, expenses, assets, and a link to the filed PDF. For journalists, donors, and grantmakers doing due diligence without digging through IRS filings by hand.",
     "version": "0.1",
     "meta": {
