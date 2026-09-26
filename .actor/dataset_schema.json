@@ -1,0 +1,78 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "ein",
+                    "orgName",
+                    "nteeCode",
+                    "city",
+                    "state",
+                    "taxYear",
+                    "totalRevenue",
+                    "totalExpenses",
+                    "totalAssetsEnd",
+                    "totalLiabilitiesEnd",
+                    "filingUpdatedAt",
+                    "pdfUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "ein": {
+                        "label": "EIN",
+                        "format": "number"
+                    },
+                    "orgName": {
+                        "label": "Org name",
+                        "format": "text"
+                    },
+                    "nteeCode": {
+                        "label": "NTEE code",
+                        "format": "text"
+                    },
+                    "city": {
+                        "label": "City",
+                        "format": "text"
+                    },
+                    "state": {
+                        "label": "State",
+                        "format": "text"
+                    },
+                    "taxYear": {
+                        "label": "Tax year",
+                        "format": "number"
+                    },
+                    "totalRevenue": {
+                        "label": "Total revenue",
+                        "format": "number"
+                    },
+                    "totalExpenses": {
+                        "label": "Total expenses",
+                        "format": "number"
+                    },
+                    "totalAssetsEnd": {
+                        "label": "Total assets end",
+                        "format": "number"
+                    },
+                    "totalLiabilitiesEnd": {
+                        "label": "Total liabilities end",
+                        "format": "number"
+                    },
+                    "filingUpdatedAt": {
+                        "label": "Filing updated at",
+                        "format": "date"
+                    },
+                    "pdfUrl": {
+                        "label": "PDF URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
