@@ -60,5 +60,5 @@ charge per entry whether it has 1 or 10 matching filings.
 
 ## Related products
 
-- [Grant Opportunity Tracker](https://github.com/timmKal01/grant-opportunity-tracker) — new federal funding a nonprofit could apply for, rather than its own past filings
-- [SEC 8-K Material Event Tracker](https://github.com/timmKal01/sec-8k-material-event-tracker) — the for-profit equivalent: material events from public company filings
+- [Federal Grant Finder](https://apify.com/m_ctim/grant-opportunity-tracker): new federal funding a nonprofit could apply for, rather than its own past filings
+- [SEC 8-K Tracker](https://apify.com/m_ctim/sec-8k-material-event-tracker): the for-profit equivalent: material events from public company filings
