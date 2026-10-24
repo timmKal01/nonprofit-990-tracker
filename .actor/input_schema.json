@@ -27,5 +27,5 @@
             "maximum": 10
         }
     },
-    "required": ["organizations"]
+    "required": []
 }
