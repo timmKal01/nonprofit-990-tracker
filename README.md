@@ -30,6 +30,7 @@ One record per filing year:
 
 ```json
 {
+  "rowType": "filing",
   "ein": 271067272,
   "orgName": "Code For America Labs",
   "nteeCode": "W20",

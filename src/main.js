@@ -24,7 +24,7 @@ for (const entry of organizations) {
     }
 
     if (filings.length > 0) {
-        await Actor.pushData(filings);
+        await Actor.pushData(filings.map((filing) => ({ rowType: 'filing', ...filing })));
     }
     await Actor.charge({ eventName: ORG_CHECKED_EVENT });
 
